@@ -1,0 +1,14 @@
+{
+  "name": "post-customer-feedback",
+  "version": "0.0.1",
+  "description": "Posts customer feedback in the form of unstructured text data",
+  "main": "post.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kallol Borah",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.1056.0"
+  }
+}
