@@ -24,7 +24,7 @@ public class App
         AmazonComprehend comprehendClient =
             AmazonComprehendClientBuilder.standard()
                                          .withCredentials(awsCreds)
-                                         .withRegion("region")
+                                         .withRegion("us-east-1")
                                          .build();
                                          
         // Call detectSentiment API
